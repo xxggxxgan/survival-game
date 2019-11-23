@@ -1,0 +1,12 @@
+For next lab 10/25:
+  -Need to show demo that pings at least one API in the backend and presents the data in the frontend somehow
+  -We will be using JavaScript with node.js and React, so we should all have both those environments downloaded and ready to 
+  work on
+  
+  Steps for next week:
+    Set up environment
+    Call Google News API
+    Be able to specify a location and see news from Google News API for that location
+        Later we will specify location by map, for now a dropdown or text box is fine
+        
+        

@@ -1,0 +1,63 @@
+.Wrapper {
+  position: relative;
+  background-color: rgba(236, 249, 255, 0.81);
+  border-radius: 25px;
+  margin: 0px 45px;
+  margin-top: 75px;
+  height: 500px;
+}
+
+.searchWrapper {
+  position: relative;
+  float: left;
+  padding: 145px 0 0 100px;
+  width: 650px;
+}
+
+.icon {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  margin: 11px 0 0 15px;
+  font-size: 50px;
+  color: rgba(250, 184, 3);
+}
+
+.input {
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 25px;
+  border: 0px solid #dddddd;
+  margin-top: 75px;
+  padding: 0 20px 0 46px;
+  width: 455px;
+  height: 45px;
+  font-size: 16px;
+}
+
+.image {
+  position: relative;
+  width: 43%;
+  padding-top: 79px;
+}
+
+.text {
+  display: flex;
+  padding-left: 10px;
+  justify-content: flex-start;
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.text.bold {
+  font-weight: 800;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}

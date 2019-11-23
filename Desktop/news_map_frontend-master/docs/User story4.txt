@@ -1,0 +1,4 @@
+people come to a new area, wants to know more people, and what happens near their home.People can use this app to see if there is any event in his area and join that event to know more people.
+
+we can use the social media api to know if there's any personal event near a certain area, 
+

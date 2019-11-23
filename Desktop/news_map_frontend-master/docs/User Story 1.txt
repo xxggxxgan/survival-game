@@ -1,0 +1,10 @@
+User Story 1 : User is looking for a quick and easy way to find out where all their college friends are now living. They 
+have a majority added on Facebook but have no way of getting a quick set of information without single handedly contacting
+each friend. It would be mostly helpful if they could get a relational idea of where people are living, like see how many
+stayed near their college city and what "hotspots" others moved to.
+
+- Our app provides a map-based interface connected with a Facebook API to return any set of friends that are living in a
+selected location. Depending on what location this user is curious to research, we can return the friends in that area.
+They can also explore around the map and get a big picture understanding of where everyone is, providing that relational 
+component required. 
+

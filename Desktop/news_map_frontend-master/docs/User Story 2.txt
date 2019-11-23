@@ -1,0 +1,9 @@
+User Story : Someone moves to a new location and are looking for things to do to get acquainted with the city. They want to
+find things going on locally as well as what people are like/what trends are prevalent nearby. If possible, they'd also like
+to have company for going to these social events.
+
+- The app can provide them a set of information regarding what concerts and events are happening in a selectd location
+by way of the Eventbrite API and Facebook events from the Facebook API. Along with showing these actual events going on,
+the app will also leverage social media to find out what kinds of trends occur in the city with Twitter or such,
+as well as any local issues or stories occuring by the Google News API. Along with showing if any Facebook friends live nearby,
+all this information can be a great starting point to begin exploring the new area.

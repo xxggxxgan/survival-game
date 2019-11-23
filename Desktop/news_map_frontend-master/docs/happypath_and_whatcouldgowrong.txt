@@ -1,0 +1,38 @@
+User Story 2
+Happy Path:
+
+1. User opens up app and logs in via Google
+2. User selects their desired location on the map (Google Maps API)
+3. App returns nearby events from Eventbrite
+
+What could go wrong and how to solve:
+
+Login fail:
+	1. Wrong email/phone #
+		a. "Couldn't find your Google Account"
+		b. User retries
+	2. Forgot email
+		a. Click "Forgot Email?"
+		b. Enter recovery email/phone # and click "Next"
+		c. Enter full name associated with recovery account and click "Next"
+		d. Click "Send" to receive verification code, then enter it and click "Next"
+		e. Select the account you would like to recover
+	3. Wrong password
+		a. "Wrong password. Try again or click Forgot Password to reset it."
+		b. Retry password (check for Caps Lock)
+		3.1 Too many attempts
+			a. After a few wrong attempts, user will need to solve a captcha in addition to providing the password
+	4. No Password
+		a. "Enter a password"
+		b. Enter a password
+	5. Forgot Password
+		a. Click "Forgot Password"
+		b. Enter recovery information asked for on screen
+			b.1 Do not have info
+				b.1a Click "Try another way"
+Possible recovery options: enter last password used, use phone, enter recovery email, answer security question, enter email they can contact you with later
+				b.1b If none of these work, contact Google
+	6. No account		
+		a. Click "Create an account"
+		b. Click "For myself" or "To manage my business"
+		c. Create account
